@@ -5,6 +5,7 @@ import Button from "@/views/Button.vue";
 import Typography from "@/views/Typography.vue";
 import Checkbox from "@/views/Checkbox.vue";
 import Radiobutton from "@/views/Radiobutton.vue";
+import Select from "@/views/Select.vue";
 
 const routes = [
   {
@@ -31,6 +32,11 @@ const routes = [
     path: "/radiobutton",
     name: "Radiobutton",
     component: Radiobutton,
+  },
+  {
+    path: "/select",
+    name: "Select",
+    component: Select,
   },
 ];
 
